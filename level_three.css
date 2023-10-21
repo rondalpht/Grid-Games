@@ -1,0 +1,32 @@
+body {
+    margin: 10px;
+  }
+.container{
+    display: grid;
+    grid-template-columns:124px 124px 124px;
+    grid-template-rows: 100px 100px;
+}
+    .cell {
+            align-items: center;
+            border: solid grey thin;
+            color: white;
+            display: flex;
+            font-size: 2em;
+            justify-content: center;
+}
+#one{
+    background-color: #96ceb4;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+#two{
+    background-color: #ff6f69;
+}
+#three{
+    background-color: #9dc183;
+}
+#four{
+    background-color: #ffcc5c;
+    grid-column-start: 2;
+    grid-column-end:4;
+}

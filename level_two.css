@@ -5,42 +5,40 @@
     text-align: center;
 }
     .cell {
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px rgba(0,0,0,0.2);
-    text-align: center;
-    border: 5px solid black;
-   
- 
+        align-items: center;
+        border: solid grey thin;
+        color: white;
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
 }
  #one{
-    background-color:aquamarine ;
+    background-color: #96ceb4;
 }
 #two{
-    background-color: #FFCCCB;
+    background-color: #ff6f69;
 }
 #three{
-    background-color:#90EE90 ;
+    background-color: #9dc183;
 }
 #four{
-    background-color: #FFFF33;
+    background-color: #ffcc5c;
 }
 #five{
-    background-color:#1D2F6F ;
+    background-color: #b784a7;
 }
 #six{
-    background-color: #D1D646;
+    background-color: #9dc183;
 }
 #seven{
-    background-color:#29E7CD;
+    background-color: #96ceb4;
 }
 #eight{
-    background-color: #E396DF;
+    background-color: #ffcc5c;
 }
 #nine{
-    background-color:#D7263D ;
+    background-color: #9dc183;
 }
 #ten{
-    background-color: #E8871E;
+    background-color: #b784a7;
 }
